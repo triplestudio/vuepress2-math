@@ -4,6 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { katex } from '@mdit/plugin-katex'
 
 export default defineUserConfig({
+  base: '/vuepress2-math/',
   lang: 'zh-CN',
   title: '数学试题记录',
   description: '记录数学试题和解答',
