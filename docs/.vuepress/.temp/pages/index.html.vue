@@ -1,7 +1,7 @@
 <template><div><h1 id="数学试题记录站点" tabindex="-1"><a class="header-anchor" href="#数学试题记录站点"><span>数学试题记录站点</span></a></h1>
 <p>欢迎来到数学试题记录站点！这里是我记录和整理数学试题的地方。</p>
 <h2 id="站点特点" tabindex="-1"><a class="header-anchor" href="#站点特点"><span>站点特点</span></a></h2>
-<p>该站点是使用 VuePress 2.0.0-rc.26，和 @mdit/plugin-katex（数学公式渲染组件）构建的一个用于方便记录和整理数学试题的基础版本。以此为基础，可以方便的用于数学试题的记录和整理。</p>
+<p>该站点是使用 VuePress 2.0.0-rc.26，和 @mdit/plugin-katex（数学公式渲染组件）构建的一个用于方便记录和整理数学试题的基础版本。以此为基础，可以方便的用于数学试题的记录和整理。克隆该站点，开启自己的数学试题记录站点。</p>
 <p><a href="https://mp.weixin.qq.com/s/wKkbSON0vDYy1qAGKPi2Tw" target="_blank" rel="noopener noreferrer">VuePress 站点制作可参考</a></p>
 <h2 id="站点功能" tabindex="-1"><a class="header-anchor" href="#站点功能"><span>站点功能</span></a></h2>
 <ul>
@@ -12,8 +12,8 @@
 </ul>
 <h2 id="快速导航" tabindex="-1"><a class="header-anchor" href="#快速导航"><span>快速导航</span></a></h2>
 <ul>
-<li><RouteLink to="/">首页</RouteLink></li>
-<li><RouteLink to="/problems/">我的试题</RouteLink></li>
+<li><a href="/" target="_blank" rel="noopener noreferrer">首页</a></li>
+<li><a href="/problems/" target="_blank" rel="noopener noreferrer">我的试题</a></li>
 </ul>
 <h2 id="数学公式示例" tabindex="-1"><a class="header-anchor" href="#数学公式示例"><span>数学公式示例</span></a></h2>
 <p>这是一个行内公式：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">E = mc^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal">m</span><span class="mord"><span class="mord mathnormal">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>

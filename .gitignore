@@ -9,6 +9,8 @@ pnpm-debug.log*
 docs/.vuepress/dist/
 docs/.vuepress/cache/
 docs/.vuepress/temp/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
 
 # OS generated files
 .DS_Store

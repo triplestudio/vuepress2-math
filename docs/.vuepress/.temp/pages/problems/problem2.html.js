@@ -1,5 +1,5 @@
 import comp from "D:/github/github/vuepress2-math/docs/.vuepress/.temp/pages/problems/problem2.html.vue"
-const data = JSON.parse("{\"path\":\"/problems/problem2.html\",\"title\":\"问题 2: 三角函数恒等式证明\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"problems/problem2.md\"}")
+const data = JSON.parse("{\"path\":\"/problems/problem2.html\",\"title\":\"问题 2: 三角函数恒等式证明\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{\"updatedTime\":1764561187000,\"contributors\":[{\"name\":\"yyliujc\",\"username\":\"yyliujc\",\"email\":\"443448607@qq.com\",\"commits\":1,\"url\":\"https://github.com/yyliujc\"}],\"changelog\":[{\"hash\":\"ca967d20f2ee823cc188da1e81333d7104435935\",\"time\":1764561187000,\"email\":\"443448607@qq.com\",\"author\":\"yyliujc\",\"message\":\"first commit\"}]},\"filePathRelative\":\"problems/problem2.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
