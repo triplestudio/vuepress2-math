@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"><title>数学试题记录</title><meta name="description" content="记录数学试题和解答">
+    <link rel="preload" href="/vuepress2-math/assets/style-C5QREZ3P.css" as="style"><link rel="stylesheet" href="/vuepress2-math/assets/style-C5QREZ3P.css">
+    <link rel="modulepreload" href="/vuepress2-math/assets/app-lib7S75Y.js"><link rel="modulepreload" href="/vuepress2-math/assets/404.html-qD4BAaEk.js">
+    <link rel="prefetch" href="/vuepress2-math/assets/index.html-CLWvQtMO.js" as="script"><link rel="prefetch" href="/vuepress2-math/assets/index.html-Bh-V1-If.js" as="script"><link rel="prefetch" href="/vuepress2-math/assets/problem1.html-DK_wEslj.js" as="script"><link rel="prefetch" href="/vuepress2-math/assets/problem2.html-j_qfyBCM.js" as="script"><link rel="prefetch" href="/vuepress2-math/assets/problem3.html-C-lMv_Ft.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/vuepress2-math/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/vuepress2-math/assets/app-lib7S75Y.js" defer></script>
+  </body>
+</html>
