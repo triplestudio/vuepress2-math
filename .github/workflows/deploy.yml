@@ -8,13 +8,16 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # 完整的权限配置
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
+          # 获取完整历史，包括所有分支和标签
+          fetch-depth: 0
           submodules: true
 
       - name: Setup Node.js
@@ -28,11 +31,18 @@ jobs:
       - name: Build VuePress site
         run: npm run docs:build
 
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
+          # 使用 PERSONAL_TOKEN 而不是 GITHUB_TOKEN
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/.vuepress/dist
-          # The following lines are optional, if you want to use a custom domain
-          # cname: example.com
-          # enable_jekyll: true
+          # 强制推送，覆盖现有的 gh-pages 分支
+          force_orphan: true
+          # 部署到 gh-pages 分支
+          publish_branch: gh-pages
