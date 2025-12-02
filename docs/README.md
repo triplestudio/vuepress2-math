@@ -7,6 +7,7 @@
 
 [VuePress 站点制作可参考](https://mp.weixin.qq.com/s/wKkbSON0vDYy1qAGKPi2Tw)
 
+自动部署到 Github Pages 参考 .github/workflows/deploy.yml
 
 ## 站点功能
 
